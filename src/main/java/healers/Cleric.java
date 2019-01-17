@@ -17,6 +17,14 @@ public class Cleric extends Player {
         return potions;
     }
 
+    public void addPotion(PotionType potion){
+        potions.add(potion);
+    }
+
+    public int countPotions(){
+       return potions.size();
+    }
+
     public void addPotionPoints() {
         double total = 0;
         for ( PotionType potion : potions) {
@@ -30,10 +38,10 @@ public class Cleric extends Player {
     }
 
     public void healPlayer(PotionType potion, Player player){
-        removePotion(potion);
         double ppoints = potion.getPoints();
         double playerHP = player.getHealthpoints();
         double newhp = ppoints += playerHP;
         player.setHealthpoints(newhp);
+        removePotion(potion);
     }
 }
