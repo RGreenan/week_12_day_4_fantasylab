@@ -1,11 +1,13 @@
-public enum CreatureType {
-    DRAGON("dragon", 30),
-    CAT("cat", 20);
+package wizards;
+
+public enum SpellType {
+    FIREBALL("fireball", 40),
+    LIGHTNINGSTRIKE("lightning strike", 30);
 
     private final String name;
     private final double points;
 
-    CreatureType(String name, double points){
+    SpellType(String name, double points) {
         this.name = name;
         this.points = points;
     }

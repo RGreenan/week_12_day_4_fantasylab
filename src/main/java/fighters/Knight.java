@@ -1,3 +1,7 @@
+package fighters;
+
+import fighters.Fighter;
+
 public class Knight extends Fighter {
 //    private double healthpoints;
 

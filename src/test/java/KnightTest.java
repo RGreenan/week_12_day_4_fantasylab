@@ -1,3 +1,5 @@
+import fighters.Knight;
+import fighters.WeaponType;
 import org.junit.Before;
 import org.junit.Test;
 

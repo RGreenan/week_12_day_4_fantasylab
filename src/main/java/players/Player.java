@@ -1,3 +1,5 @@
+package players;
+
 public abstract class Player {
     protected double healthpoints;
     private String name;

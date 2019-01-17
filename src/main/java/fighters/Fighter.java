@@ -1,3 +1,7 @@
+package fighters;
+
+import players.Player;
+
 public abstract class Fighter extends Player {
     private WeaponType weapon;
 

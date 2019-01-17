@@ -1,3 +1,5 @@
+package fighters;
+
 public enum WeaponType {
     SWORD("sword", 20),
     CLUB("club", 30),
